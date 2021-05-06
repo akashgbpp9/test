@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    android:orientation="vertical"
+    tools:context=".LoginActivity">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome"
+        android:textColor="#000"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="30dp"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:hint="Phone Number"
+        android:gravity="center"
+        android:layout_marginTop="150dp"
+        android:elevation="6dp"
+        android:digits="0123456789"
+        android:layout_gravity="center_horizontal"
+        android:padding="10dp"
+        android:textColor="#000"
+        android:inputType="number"
+        android:background="@drawable/edittext"
+        android:id="@+id/phnnumber"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button"
+        android:text="Send OTP"
+        android:textColor="#fff"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp"
+        android:id="@+id/phnnumberbtn"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp"
+        android:hint="OTP"
+        android:inputType="number"
+        android:digits="0123456789"
+        android:gravity="center"
+        android:textColor="#000"
+        android:layout_marginTop="150dp"
+        android:elevation="6dp"
+        android:padding="10dp"
+        android:textColorHint="#fff"
+        android:background="@drawable/edittext"
+        android:id="@+id/otp"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button"
+        android:text="Next"
+        android:textColor="#fff"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp"
+        android:id="@+id/otpbtn"
+         />
+
+
+
+
+</LinearLayout>
